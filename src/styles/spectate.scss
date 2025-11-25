@@ -557,3 +557,13 @@ header {
     font-size: 18px;
   }
 }
+
+.iframe-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+iframe {
+ border: none;
+} 
