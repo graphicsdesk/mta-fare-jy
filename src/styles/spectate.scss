@@ -15,34 +15,29 @@ $fade-transition-duration: 0.25s;
 
 @font-face {
   font-family: Georgia;
-  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia.ttf')
-    format('truetype');
+  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Georgia;
-  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia+Italic.ttf')
-    format('truetype');
+  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia+Italic.ttf') format('truetype');
   font-style: italic;
 }
 
 @font-face {
   font-family: Georgia;
-  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia+Bold.ttf')
-    format('truetype');
+  src: url('https://spectator-fonts.s3.amazonaws.com/Georgia+Bold.ttf') format('truetype');
   font-weight: 700;
 }
 
 @font-face {
   font-family: Graphik;
-  src: url('https://spectator-fonts.s3.amazonaws.com/Graphik-400-Regular.otf')
-    format('opentype');
+  src: url('https://spectator-fonts.s3.amazonaws.com/Graphik-400-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: Graphik;
-  src: url('https://spectator-fonts.s3.amazonaws.com/Graphik-600-Semibold.otf')
-    format('opentype');
+  src: url('https://spectator-fonts.s3.amazonaws.com/Graphik-600-Semibold.otf') format('opentype');
   font-weight: 600;
 }
 
@@ -131,6 +126,7 @@ b {
 
     .byline {
       text-align: center;
+
       a {
         color: #fff;
       }
@@ -191,7 +187,7 @@ header {
     margin-bottom: 14px;
     text-align: center;
     font-weight: normal;
-    }   
+  }
 
   .byline {
     font-weight: 600;
@@ -319,6 +315,7 @@ header {
 }
 
 #navbar:not(.show-nav-links) {
+
   .hamburger,
   .hamburger-btn:after,
   .hamburger-btn:before {
@@ -386,8 +383,7 @@ header {
 
   #navbar.show-nav-links {
     .hamburger-btn {
-      background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMC4yOSAxMi4zIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmljb24tY2xvc2U8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMC4zOSIgeTE9IjAuMzIiIHgyPSI5LjkiIHkyPSIxMS45OSIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjAuMzkiIHkxPSIxMS45OSIgeDI9IjkuOSIgeTI9IjAuMzIiLz48L2c+PC9nPjwvc3ZnPg==")
-        no-repeat 50% content-box;
+      background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMC4yOSAxMi4zIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6Izk5OTtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmljb24tY2xvc2U8L3RpdGxlPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMC4zOSIgeTE9IjAuMzIiIHgyPSI5LjkiIHkyPSIxMS45OSIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjAuMzkiIHkxPSIxMS45OSIgeDI9IjkuOSIgeTI9IjAuMzIiLz48L2c+PC9nPjwvc3ZnPg==") no-repeat 50% content-box;
       background-size: 86% auto;
     }
 
@@ -400,7 +396,7 @@ header {
       opacity: 1;
       box-shadow: 0 -10px white,
         // White shadow to mask top box-shadow
-          $navbar-shadow;
+        $navbar-shadow;
       flex: 1 0 auto;
     }
 
@@ -439,10 +435,14 @@ header {
   }
 
   .image-caption {
-    width: 80%;                /* Match the image width */
-    max-width: 700px;          /* Match the image max-width */
-    margin: 7px auto 30px;     /* Center the caption block */
-    text-align: left;          /* Left-align the text inside */
+    width: 80%;
+    /* Match the image width */
+    max-width: 700px;
+    /* Match the image max-width */
+    margin: 7px auto 30px;
+    /* Center the caption block */
+    text-align: left;
+    /* Left-align the text inside */
     font-size: 15px;
     font-family: $georgia;
     color: #888;
@@ -487,8 +487,8 @@ header {
   .image {
     max-width: 70vw;
   }
- }
- 
+}
+
 
 .graphic {
   margin: 30px auto;
@@ -528,7 +528,7 @@ header {
   .cover-hed header {
     margin-top: 50%;
     transform: translateY(-160%);
-  }  
+  }
 
   header #headline {
     font-size: 38px;
@@ -540,14 +540,14 @@ header {
   .cover-hed header {
     margin-top: 50%;
     transform: translateY(-145%);
-  }  
+  }
 }
 
 @media (max-width: 340px) {
   .cover-hed header {
     margin-top: 50%;
     transform: translateY(-140%);
-  }  
+  }
 
   header #headline {
     font-size: 32px;
@@ -559,11 +559,12 @@ header {
 }
 
 .iframe-container {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
 }
+
 iframe {
- border: none;
-} 
+  border: none;
+}
